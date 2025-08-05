@@ -7,7 +7,7 @@
     "preinstall": "npx only-allow pnpm",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3001",
     "preview": "next build && next start",
     "e2e": "npx playwright test",
     "e2e:gen": "playwright codegen -o e2e/foo.spec.ts http://localhost:3000",
